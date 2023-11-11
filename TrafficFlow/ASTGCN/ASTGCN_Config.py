@@ -3,7 +3,8 @@ import configparser
 
 MODE = 'train'
 DEBUG = False
-DEVICE = 'cuda:1'
+# DEVICE = 'cuda:1'
+DEVICE = 'cuda:0'
 MODEL = 'ASTGCN'
 DATASET = 'PEMSD8'
 GRAPH = "../data/PEMSD8/PEMSD8.csv"
